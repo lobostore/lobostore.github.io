@@ -1,0 +1,41 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    <h1 class="hero-title">Produtos escolhidos a dedo</h1>
+    <p class="hero-subtitle">{{ .Site.Params.description }}</p>
+  </div>
+</section>
+<section class="trust">
+  <div class="container">
+    <div class="trust-grid">
+      <div class="trust-item">
+        <h3>Compra própria</h3>
+        <p>Todo produto é comprado e testado por mim antes de aparecer aqui.</p>
+      </div>
+      <div class="trust-item">
+        <h3>Uso real</h3>
+        <p>Nada de review de fachada: eu uso no dia a dia antes de indicar.</p>
+      </div>
+      <div class="trust-item">
+        <h3>Pesquisa de qualidade</h3>
+        <p>Só entra na loja o que passa no meu critério de qualidade e custo-benefício.</p>
+      </div>
+      <div class="trust-item">
+        <h3>Recomendação honesta</h3>
+        <p>Se está na página, é porque eu realmente compraria de novo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container">
+  <div class="section-heading">
+    <h2>Produtos em destaque</h2>
+    <p>Clique em um produto para ver os detalhes e o link de afiliado.</p>
+  </div>
+  <div class="product-grid">
+    {{ range (where .Site.RegularPages "Section" "produtos") }}
+      {{ partial "product-card.html" . }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}

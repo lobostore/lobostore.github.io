@@ -1,0 +1,76 @@
+{{ define "main" }}
+<article class="product-single container">
+  <a class="back-link" href="{{ .Site.Home.RelPermalink }}">&larr; VOLTAR PARA A LISTA</a>
+  <div class="product-single-layout">
+    <div class="product-single-gallery">
+      <div class="product-single-media">
+        {{ with .Params.image }}
+        <img id="product-main-image" src="{{ . }}" alt="{{ $.Title }}">
+        {{ end }}
+      </div>
+      {{ with .Params.gallery }}
+      <div class="product-gallery">
+        {{ range . }}
+        <button class="gallery-thumb" type="button" data-full="{{ . }}" aria-label="{{ $.Title }}">
+          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+        </button>
+        {{ end }}
+      </div>
+      <script>
+        (function () {
+          var main = document.getElementById("product-main-image");
+          document.querySelectorAll(".gallery-thumb").forEach(function (btn) {
+            btn.addEventListener("click", function () {
+              main.src = btn.getAttribute("data-full");
+            });
+          });
+        })();
+      </script>
+      {{ end }}
+      <div class="affiliate-block">
+        <a class="cta-button" href="{{ .Params.link_afiliado }}" target="_blank" rel="nofollow sponsored noopener">
+          {{ .Params.cta_label | default "COMPRAR NA AMAZON" }}
+        </a>
+        <p class="affiliate-note">
+          <span class="cta-badge">Link de Afiliado</span>
+          Este link contém seu ID de afiliado exclusivo para comissões — sem custo adicional para você.
+        </p>
+      </div>
+    </div>
+    <div class="product-single-info">
+      <h1 class="product-single-title">{{ .Title }}</h1>
+      {{ with .Params.summary }}<p class="product-single-summary">{{ . }}</p>{{ end }}
+      {{ with .Params.specs }}
+      <ul class="product-specs">
+        {{ range . }}<li>{{ . }}</li>{{ end }}
+      </ul>
+      {{ end }}
+      <div class="product-single-price">{{ .Params.price }}</div>
+      {{ with .Params.old_price }}<div class="product-single-oldprice">{{ . }}</div>{{ end }}
+    </div>
+  </div>
+  {{ with .Content }}
+  <div class="product-single-body">
+    {{ . }}
+  </div>
+  {{ end }}
+  {{ with .Params.videos }}
+  <section class="product-videos">
+    <h2>Vídeos e reviews</h2>
+    <div class="product-video-grid">
+      {{ range . }}
+      <div class="product-video">
+        <iframe
+          src="{{ replace . "watch?v=" "embed/" }}"
+          title="Vídeo do produto"
+          loading="lazy"
+          allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+</article>
+{{ end }}

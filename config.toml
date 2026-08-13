@@ -1,0 +1,15 @@
+baseURL = "https://lobostore.github.io/"
+defaultContentLanguage = "pt-br"
+locale = "pt-BR"
+title = "LOBO STORE"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT", "404"]
+
+[params]
+  brand = "LOBO STORE"
+  description = "Os melhores produtos do mercado"
+  amazon = "Amazon"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
