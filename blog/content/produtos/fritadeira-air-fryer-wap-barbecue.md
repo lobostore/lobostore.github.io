@@ -81,6 +81,8 @@ Além de fritar, a Barbecue permite:
 | Peso líquido | 10,4 kg |
 | Peso bruto | 11,8 kg |
 
+> **Onde ela cabe?** Com **40 cm de profundidade, 41 cm de largura e 28,8 cm de altura**, a Barbecue ocupa pouco espaço. Cabe tranquila em uma bancada ou armário com **45 cm de largura e 30 cm de altura** (considerando a abertura da tampa, reserve um vão livre de pelo menos **60 cm de altura** acima dela). Em resumo: uma prateleira de cozinha padrão ou um canto de balcão com meio metro já é suficiente — e ela ainda libera o espaço de todos os outros eletrodomésticos que substitui.
+
 ## Acessórios inclusos
 
 - 1x Chapa
