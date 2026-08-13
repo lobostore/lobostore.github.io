@@ -23,6 +23,9 @@ gallery:
   - "https://lojawap.vtexassets.com/arquivos/ids/198201-1200-auto?v=639191942418400000&width=1200&height=auto&aspect=true"
   - "https://lojawap.vtexassets.com/arquivos/ids/198202-1200-auto?v=639191942418400000&width=1200&height=auto&aspect=true"
   - "https://lojawap.vtexassets.com/arquivos/ids/198207-1200-auto?v=639191942418900000&width=1200&height=auto&aspect=true"
+videos:
+  - "https://www.youtube.com/watch?v=NOAQR6infDM"
+  - "https://www.youtube.com/watch?v=ecAR7L09jmU"
 ---
 
 Descubra a revolução culinária com a **Fritadeira WAP Air Fryer Barbecue 12 em 1**, uma verdadeira aliada para os amantes da gastronomia e das carnes suculentas. Seu design inovador traz maior versatilidade à sua cozinha.
