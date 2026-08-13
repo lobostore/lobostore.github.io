@@ -3,7 +3,7 @@ title: "Moedor de Café Manual iCoffee C3S (Timemore Chestnut)"
 summary: "Moedor manual com mós cônicas de aço inoxidável S2C, ajuste de moagem stepless, corpo em alumínio e capacidade para 1 a 2 xícaras."
 price: "R$ 126,35"
 old_price: "R$ 199,90"
-image: "https://icoffee.ae/media/webp_image/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/t/i/timemore-chestnut-c3s-black-1.webp"
+image: "https://www.timemore.com/cdn/shop/files/4_388cea4a-39c0-4227-88f9-4c6a5652bb9f.jpg?v=1748573338&width=1280"
 featured: false
 specs:
   - "Mós cônicas de aço inoxidável S2C"
@@ -17,9 +17,9 @@ specs:
 link_afiliado: "https://meli.la/2d7F3vF"
 cta_label: "COMPRAR"
 gallery:
-  - "https://icoffee.ae/media/webp_image/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/t/i/timemore-chestnut-c3s-black-1.webp"
-  - "https://icoffee.ae/media/webp_image/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/t/i/timemore-chestnut-c3s-black-2.webp"
-  - "https://icoffee.ae/media/webp_image/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/t/i/timemore-chestnut-c3s-black-13.webp"
+  - "https://www.timemore.com/cdn/shop/files/4_388cea4a-39c0-4227-88f9-4c6a5652bb9f.jpg?v=1748573338&width=1280"
+  - "https://www.timemore.com/cdn/shop/files/C3Spro_d29bc7d1-1f83-4e3f-9655-9cf5027baa30.png?v=1713173386&width=1280"
+  - "https://www.timemore.com/cdn/shop/files/5_cd94e028-f438-4b4e-b4f4-add268c08e8f.png?v=1725353734&width=1280"
 videos:
   - "https://www.youtube.com/watch?v=Qn51VkFA5eo"
   - "https://www.youtube.com/watch?v=N1IdHijYvEA"
