@@ -39,4 +39,4 @@ Every change under `layouts/` must be verified by rendering (build or server), n
 - `config.toml` sets `disableKinds` (no RSS/sitemap/taxonomy/404/robotsTXT) and `markup.goldmark.renderer.unsafe = true` (raw HTML in content). Don't remove without reason.
 - Hugo ≥0.158 deprecates `languageCode`; this repo uses `defaultContentLanguage` + `locale`.
 - `public/` and `resources/` are generated; never hand-edit them. No `.gitignore` exists yet.
-- `baseURL` is a placeholder (`https://lobostore.example.com/`); update for real deploys.
+- `baseURL` is `https://lobovit.github.io/lobostore/` (GitHub Pages project site); deploy via `.github/workflows/hugo.yaml`.
