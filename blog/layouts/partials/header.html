@@ -1,0 +1,12 @@
+<header class="site-header">
+  <div class="container site-header-inner">
+    <a class="brand" href="{{ .Site.Home.RelPermalink }}">
+      <img class="brand-logo" src="{{ "images/lobostore.png" | relURL }}" alt="{{ .Site.Params.brand }}">
+      <span class="brand-name">{{ .Site.Params.brand }}</span>
+    </a>
+    <nav class="site-nav">
+      <a href="{{ .Site.Home.RelPermalink }}">Início</a>
+      <a href="{{ "produtos" | relURL }}">Produtos</a>
+    </nav>
+  </div>
+</header>
